@@ -9,7 +9,7 @@ php 获得 java 结果
 PHP自定义协议请求JAVA的服务，JAVA解析该协议，在本地实例化类并实现方法，然后把结果返回给PHP
 
 ---
-
+```
 while (true)
  {
 // disconnected every 5 seconds...
@@ -63,5 +63,4 @@ receive_message('127.0.0.1','85',5);
       fclose($fp);
    }
  }
- 
- ---
+```
